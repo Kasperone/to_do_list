@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/27f4c521b6.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Your Todo List</title>
 </head>
 <body>
 <div class="todo">
@@ -20,24 +20,24 @@
         <button class="btn-add">Add</button>
     </div>
     <div class="todolist">
-        <h3>Lista zadań:</h3>
-        <p class="error-info">Brak zadań na liście.</p>
+        <h3>My Tasks:</h3>
+        <p class="error-info">No tasks on the list</p>
         <ul>
-            <li data-id='test1'>Wypić kawę
+            <li data-id='test1'>Drink Coffee
                 <div class="tools">
                     <button class="complete"><i class="fas fa-check"></i></button>
                     <button class="edit">EDIT</button>
                     <button class="delete"><i class="fas fa-times"></i></button>
                 </div>
             </li>
-            <li data-id='test2'>Zjeść śniadanie
+            <li data-id='test2'>Eat Breakfast
                 <div class="tools">
                     <button class="complete"><i class="fas fa-check"></i></button>
                     <button class="edit">EDIT</button>
                     <button class="delete"><i class="fas fa-times"></i></button>
                 </div>
             </li>
-            <li data-id='test3'>Umyć okna
+            <li data-id='test3'>Wash Teeth
                 <div class="tools">
                     <button class="complete"><i class="fas fa-check"></i></button>
                     <button class="edit">EDIT</button>
@@ -49,12 +49,12 @@
 </div>
 
 <div class="popup">
-    <h3>Edytuj zadanie:</h3>
+    <h3>Edit Task:</h3>
     <div class="popup-body">
         <p class="popup-info"></p>
         <input type="text" class="popup-input" placeholder="Wprowadź nową treść zadania...">
-        <button class="popup-btn accept">Zatwierdź</button>
-        <button class="popup-btn cancel">Anuluj</button>
+        <button class="popup-btn accept">Submit</button>
+        <button class="popup-btn cancel">Cancel</button>
     </div>
 </div>
 <script src="script.js"></script>
