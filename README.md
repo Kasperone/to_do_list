@@ -4,8 +4,7 @@ Just a simple Todo list.
 
 ## Description
 
-Todo list I made during the Udemy course by Mateusz Maj.
-
+Todo list I made using Javascript, during the Udemy course by Mateusz Maj.
 * link to the course [Mateusz Maj Course](https://www.udemy.com/course/javascript-jedyny-kurs-ktorego-potrzebujesz/) (the course is in Polish)
 
 ## Getting Started
