@@ -23,8 +23,8 @@ Todo list I made during the Udemy course by Mateusz Maj.
 
 ## Authors
 
-ex. Kasper Kosecki
-ex. Mateusz Maj
+* Kasper Kosecki
+* Mateusz Maj
 
 ## License
 
